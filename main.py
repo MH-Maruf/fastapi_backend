@@ -23,7 +23,7 @@ from google.oauth2 import service_account
 from googleapiclient.http import MediaIoBaseDownload, MediaIoBaseUpload
 import io
 
-print("Hello World") 
+print("Hello World")
 
 
 client = OpenAI()
