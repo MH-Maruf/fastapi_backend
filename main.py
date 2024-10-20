@@ -3045,4 +3045,4 @@ async def cvtemplate_1(service, docs_service, data, working_experiences, career_
     except Exception as e:
         content = "".join(traceback.format_exception(type(e), e, e.__traceback__))
         print(f"Error at CV Template 2: {content}")
-        raise HTTPException(status_code=500, detail="Connection Failed!")
+        raise HTTPException(status_code=500, detail="Connection Failed!") 
